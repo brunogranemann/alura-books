@@ -1,5 +1,6 @@
 .cabeçalho {
     background-color: var(--branco);
+    padding: 1rem 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,6 +10,7 @@
 .container {
     display: flex;
     align-items: center;
+    gap: 1rem;
 }
 
 .container__botao {
@@ -16,20 +18,22 @@
 }
 
 .cabeçalho__menu-hamburguer {
-    width: 48px;
-    height: 48px;
+    width: 3rem;
+    height: 3rem;
     background: url("../imagens/Menu.svg") no-repeat center;
     display: inline-block;
 }
 
 .container__imagem {
-    padding: .5rem;
+    /* padding: .5rem; */
+
 }
 
 .lista-menu {
     display: none;
     position: absolute;
     top: 100%;
+    right: 30%;
     width: 70vw;
 }
 
