@@ -10,7 +10,7 @@
 
 .swiper-pagination {
     position: initial;
-    margin: .6rem;
+    margin: .6rem 0;
 }
 
 .swiper-slide img {
@@ -19,4 +19,62 @@
 
 .swiper-button-prev, .swiper-button-next, .swiper-scrollbar {
     display: none;
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+
+.card__descriçao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+.descriçao__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.descriçao__titulo-livro {
+    color: var(--azul);
+    font-size: 1.13rem;
+    font-weight: 700;
+    line-height: 1.7rem;
+    margin: .5rem 0;
+}
+
+.descriçao__texto {
+    font-size: 0.88rem;
+    line-height: 1.3rem;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+}
+
+.botoes__item {
+    gap: .5rem;
+}
+
+.botoes__ancora {
+    text-decoration: none;
+    background: var(--laranja);
+    padding: 1rem 2.2rem;
+    color: var(--branco);
+    font-weight: 700;
+}
+
+.descriçao__estrelas {
+    margin-bottom: .5rem;
 }
