@@ -24,8 +24,7 @@
     padding: .88rem;
     border: 1px solid var(--branco);
     border-radius: 24px;
-    width: 23.75rem;
-    max-width: 90vw;
+    width: 90%;
 }
 
 .banner__busca::placeholder {
@@ -34,4 +33,19 @@
     font-size: .88rem;
     font-weight: 400;
     text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .banner {
+        padding: 5.25rem 0;
+    }
+
+    .banner__titulo {
+        font-size: 2.25rem;
+    }
+
+    .banner__busca {
+        width: 50%;
+    }
 }

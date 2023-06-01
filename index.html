@@ -38,10 +38,45 @@
             </ul>
             
             <img src="imagens/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
+
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
+
         </div>
 
+        <ul class="opçoes">
+            <input type="checkbox" name="opçoes-menu" id="opçoes-menu" class="opçoes__botao">
+            <label for="opçoes-menu">
+                <li class="opçoes__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+
+            <li class="opçoes__item">
+                <a href="#" class="opçoes__link">Favoritos</a>
+            </li>
+            <li class="opçoes__item">
+                <a href="#" class="opçoes__link">Minha estante</a>
+            </li>
+        </ul>
+
         <div class="container">
-            <a href="#"><img src="imagens/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+            <a href="#"><img src="imagens/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
             <a href="#"><img src="imagens/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
             <a href="#"><img src="imagens/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
@@ -209,7 +244,7 @@
                 <a href="#" class="topicos__link">Python</a>
             </li>
             <li class="topicos__item">
-                <a href="#" class="topicos__link">GO</a>
+                <a href="#" class="topicos__link">OO</a>
             </li>
             <li class="topicos__item">
                 <a href="#" class="topicos__link">Java</a>
@@ -220,8 +255,11 @@
 
     <section class="contato">
 
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato__descriçao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
+        
         <input type="email" class="contato__email" name="email" id="email" placeholder="Cadastre seu e-mail">
         
     </section>
