@@ -105,3 +105,38 @@
         margin: 3.85rem auto 3rem auto;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    
+    .carrossel__titulo {
+        font-size: 2rem;
+        padding: 4rem 0 1rem 0;
+    }
+
+    .carrossel__container {
+        display: flex;
+        align-items: center;
+        margin: 3.5rem 10vw 4.5rem 10vw;
+    }
+
+    .swiper {
+        width: 40%;
+    }
+
+    .swiper-pagination {
+        margin: 0 0 .5rem 0;
+    }
+
+    .descriçao__titulo {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .descriçao__texto {
+        font-size: 1rem;
+    }
+    
+    .card {
+        width: 40%;
+    }
+}

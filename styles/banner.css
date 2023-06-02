@@ -49,3 +49,15 @@
         width: 50%;
     }
 }
+
+@media screen and (min-width: 1728px) {
+
+    .banner__busca {
+        padding: 1.18rem;
+        width: 35%;
+    }
+    
+    .banner__busca::placeholder {
+        font-size: 1rem;
+    }
+}

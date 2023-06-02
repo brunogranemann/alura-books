@@ -62,6 +62,10 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
     .cabeçalho__menu-hamburguer {
@@ -110,4 +114,29 @@
     .container__imagem-transparente {
         display: none;
     }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .cabeçalho {
+        padding: .94rem 5rem;
+    }
+
+    .opçoes {
+        margin: 0 auto 0 4rem;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        gap: .25rem;
+        text-decoration: none;
+        font-size: 1.25rem;
+        color: var(--preto);
+    }
+
+    .container__texto {
+        display: block;
+    }
+
 }
